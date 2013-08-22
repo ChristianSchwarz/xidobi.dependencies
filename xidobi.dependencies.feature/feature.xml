@@ -2,7 +2,7 @@
 <feature
       id="xidobi.dependencies.feature"
       label="Xidobi Dependency Feature"
-      version="1.0.0.qualifier"
+      version="1.0.1"
       provider-name="xidobi.org">
 
    <description>
@@ -331,6 +331,20 @@ limitations under the License.
 
    <plugin
          id="org.apache.commons.net.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.guava"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.guava.source"
          download-size="0"
          install-size="0"
          version="0.0.0"
